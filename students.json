@@ -1,0 +1,33 @@
+[
+  {
+    "name": "রাহাত ইসলাম",
+    "class": "৭ম",
+    "roll": "১২",
+    "father": "মোঃ আব্দুল কাদের",
+    "mother": "রোকসানা পারভিন",
+    "phone": "017XXXXXXXX",
+    "photo": "photos/rahat.jpg",
+    "attendance": "92%",
+
+    "monthly_exam": {
+      "bangla": 85,
+      "english": 78,
+      "math": 92,
+      "science": 80
+    },
+
+    "half_yearly_exam": {
+      "bangla": 75,
+      "english": 70,
+      "math": 88,
+      "science": 72
+    },
+
+    "yearly_exam": {
+      "bangla": 90,
+      "english": 82,
+      "math": 95,
+      "science": 85
+    }
+  }
+]
