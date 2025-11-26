@@ -1,0 +1,40 @@
+<!doctype html>
+<html lang="en"><head><meta charset="utf-8"/><meta name="viewport" content="width=device-width,initial-scale=1"/><title>Admissions — Tarunnya Academy</title><link rel="stylesheet" href="styles.css"></head><body>
+<header class="topbar"><div class="brand"><div class="logo">TA</div><div><h1>Tarunnya Academy High School</h1><div class="muted">Saltha, Faridpur</div></div></div><div class="actions"><button id="loginBtn">Login</button></div></header>
+<nav class="nav">
+  <a href="index.html" class="nav-link">Dashboard</a>
+  <a href="students.html" class="nav-link">Students</a>
+  <a href="marks.html" class="nav-link">Marks</a>
+  <a href="admissions.html" class="nav-link active">Admissions</a>
+  <a href="certificates.html" class="nav-link">Certificates</a>
+  <a href="settings.html" class="nav-link">Settings</a>
+</nav>
+<main class="card">
+  <h2>Admission Form</h2>
+  <div class="form-row">
+    <div style="flex:1"><label class="label">Student Name</label><input id="adm_name" class="input"></div>
+    <div style="flex:1"><label class="label">Roll</label><input id="adm_roll" class="input"></div>
+  </div>
+  <div class="form-row">
+    <div style="flex:1"><label class="label">Class</label><input id="adm_class" class="input"></div>
+    <div style="flex:1"><label class="label">Session</label><input id="adm_session" class="input"></div>
+  </div>
+  <div class="form-row">
+    <div style="flex:1"><label class="label">Father's Name</label><input id="adm_father" class="input"></div>
+    <div style="flex:1"><label class="label">Mother's Name</label><input id="adm_mother" class="input"></div>
+  </div>
+  <div class="form-row">
+    <div style="flex:1"><label class="label">Mobile</label><input id="adm_mobile" class="input"></div>
+    <div style="flex:1"><label class="label">DOB</label><input id="adm_dob" type="date" class="input"></div>
+  </div>
+  <div style="margin-top:8px"><label class="label">Permanent Address</label><input id="adm_perm" class="input"></div>
+  <div style="margin-top:8px"><label class="label">Present Address</label><input id="adm_pres" class="input"></div>
+  <div class="form-row">
+    <div style="flex:1"><label class="label">District</label><input id="adm_dist" class="input"></div>
+    <div style="flex:1"><label class="label">Thana/Upazila</label><input id="adm_thana" class="input"></div>
+  </div>
+  <div style="margin-top:12px"><button class="btn" id="submitAdmission">Submit Admission</button></div>
+</main>
+<footer class="footer">© Tarunnya Academy</footer>
+<script src="app.js"></script>
+</body></html>
